@@ -1,5 +1,5 @@
 html, body{ 
-  background-image: url('./img/backgr.jpg');
+  background-image: url('backgr.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
