@@ -1,5 +1,5 @@
 html, body{ 
-  background-image: url('backgr.jpg');
+  background-image: url('./img/background.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
@@ -91,12 +91,10 @@ footer{
 }
 
 article {
-    /*margin: 54px 0 40px 0;*/
     margin: 54px 80px 40px 80px;  
     background: rgba(255,255,255,0.4);
     border-radius: .4em;
     padding: 6px 20px 0px 20px;
-    /* 1 flex-grow, 0 flex-shrink, auto flex-basi*/
     flex: 1 0 auto
 }
 
@@ -116,4 +114,3 @@ footer span {
     border-radius: .4em;
     padding: 6px 20px 6px 20px;
 }
-
